@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MobileDevelopment All Tests">
+    <test name="MobileDevelopmentConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.mobiledevelopment.MobileDevelopmentConsultationTest"/>
+        </classes>
+    </test>
+    <test name="MobileDevelopmentPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.mobiledevelopment.MobileDevelopmentPageTest"/>
+        </classes>
+    </test>
+    <test name="MobileDevelopmentPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.mobiledevelopment.MobileDevelopmentPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="MobileDevelopmentRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.mobiledevelopment.MobileDevelopmentRequestSpecialistTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CustomSoftware All Tests">
+    <test name="CustomSoftwareDevelopmentConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.customsoftwaredevelopment.CustomSoftwareDevelopmentConsultationTest"/>
+        </classes>
+    </test>
+    <test name="CustomSoftwareDevelopmentPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.customsoftwaredevelopment.CustomSoftwareDevelopmentPageTest"/>
+        </classes>
+    </test>
+    <test name="CustomSoftwareDevelopmentPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.customsoftwaredevelopment.CustomSoftwareDevelopmentPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="CustomSoftwareDevelopmentRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.customsoftwaredevelopment.CustomSoftwareDevelopmentRequestSpecialistTest"/>
+        </classes>
+    </test>
+</suite>

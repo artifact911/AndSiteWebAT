@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Mobile">
+    <suite-files>
+        <suite-file path="./mobile/mobile.xml"/>
+        <suite-file path="./mobile/android.xml"/>
+        <suite-file path="./mobile/ios.xml"/>
+        <suite-file path="./mobile/flutter.xml"/>
+        <suite-file path="./mobile/ionic.xml"/>
+        <suite-file path="./mobile/xamarin.xml"/>
+        <suite-file path="./mobile/reactnative.xml"/>
+    </suite-files>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ruby All Tests">
+    <test name="RubyConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyConsultationTest"/>
+        </classes>
+    </test>
+    <test name="RubyPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="RubyPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyPageTest"/>
+        </classes>
+    </test>
+    <test name="RubyRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="RubyPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="VueJS All Tests">
+    <test name="VueJSConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSConsultationTest"/>
+        </classes>
+    </test>
+    <test name="VueJSPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="VueJSPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSPageTest"/>
+        </classes>
+    </test>
+    <test name="VueJSRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="VueJSPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BA All Tests">
+    <test name="BaConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaConsultationTest"/>
+        </classes>
+    </test>
+    <test name="BaContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaContactUsTest"/>
+        </classes>
+    </test>
+    <test name="BaPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaPageTest"/>
+        </classes>
+    </test>
+    <test name="BaPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="BaRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

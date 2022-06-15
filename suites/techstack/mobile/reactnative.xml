@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ReactNative All Tests">
+    <test name="ReactNativeConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativeConsultationTest"/>
+        </classes>
+    </test>
+    <test name="ReactNativePricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativePricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="ReactNativePageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativePageTest"/>
+        </classes>
+    </test>
+    <test name="ReactNativeRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativeRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="ReactNativePriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativePriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

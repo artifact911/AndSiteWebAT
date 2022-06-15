@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BackEnd All Tests">
+    <test name="BackEndConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndConsultationTest"/>
+        </classes>
+    </test>
+    <test name="BackEndPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="BackEndPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndPageTest"/>
+        </classes>
+    </test>
+    <test name="BackEndRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="BackEndPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

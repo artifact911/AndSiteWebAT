@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Video Entertainment All Tests">
+    <test name="Video Entertainment Page Tests">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.videoandentertainment.MediaEntertainmentDesktopPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.videoandentertainment.VideoEntertainmentMobilePageTest"/>
+        </classes>
+    </test>
+</suite>

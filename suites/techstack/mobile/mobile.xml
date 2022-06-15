@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Mobile All Tests">
+    <test name="MobileConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobileConsultationTest"/>
+        </classes>
+    </test>
+    <test name="MobilePricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobilePricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="MobilePageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobilePageTest"/>
+        </classes>
+    </test>
+    <test name="MobileRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobileRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="MobilePriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobilePriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

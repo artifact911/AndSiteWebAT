@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All BackEnd">
+    <suite-files>
+        <suite-file path="./backend/backend.xml"/>
+        <suite-file path="./backend/java.xml"/>
+        <suite-file path="./backend/dotnet.xml"/>
+        <suite-file path="./backend/php.xml"/>
+        <suite-file path="./backend/python.xml"/>
+        <suite-file path="./backend/ruby.xml"/>
+        <suite-file path="./backend/nodejs.xml"/>
+        <suite-file path="./backend/scala.xml"/>
+        <suite-file path="./backend/golang.xml"/>
+        <suite-file path="./backend/ccpp.xml"/>
+    </suite-files>
+</suite>

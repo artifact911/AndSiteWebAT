@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Checking the main form for leads" parallel="classes" thread-count="4">
+    <test name="CheckingTheMainFormForLeads">
+        <groups>
+            <run>
+                <include name="Checking the main form for leads"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.ecommerce.ECommercePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.elearning.ELearningPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.enterprise.EnterprisePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.financialservices.FinancialServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.financialservices.banking.BankingPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.financialservices.fintech.FintechPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.financialservices.insurance.InsurancePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.financialservices.investment.InvestmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.CustomAssistiveTechnologySoftwareSolutionsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.EMRSolutionsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthInformationExchangeSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthInformationManagementSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthInformationSecurityAndCompliancePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcareAISoftwareSolutionsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcareBIandDAConsultingTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcareSoftwareDevelopersPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HospitalManagementSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.MedicalPracticeManagementSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.MentalHealthDigitalSolutionsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.MobileHealthcareApplicationsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.PacsDicomSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.RemotePatientMonitoringSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.RevenueCycleManagementSoftwarePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.TeleheathSolutionsTest"/>
+            <class name="com.andersenlab.autotests.site.industries.igaming.betting.SportsBettingSoftwareDevelopmentTest"/>
+            <class name="com.andersenlab.autotests.site.industries.igaming.igamingplatform.IGamingPlatformDevelopmentTest"/>
+            <class name="com.andersenlab.autotests.site.industries.igaming.main.IGamingPlatformDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.logistics.LogisticsPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.logistics.inventorymanagement.InventoryManagementSoftwareDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.logistics.ordermanagement.OrderManagementSoftwareDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.logistics.transportationmanagement.TransportationManagementSoftwareDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.logistics.warehousemanagement.WarehouseManagementSoftwareDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.realestate.RealEstatePageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.retail.RetailPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.telecom.TelecomPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.travelandhospitality.TravelPageTest"/>
+            <class name="com.andersenlab.autotests.site.industries.videoandentertainment.MediaEntertainmentDesktopPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.businessanalysts.BaPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.clouddevelopment.CloudDevelopmentServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.clouddevelopment.amazonwebservices.AmazonWebServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.datascience.DataScienceBigDataPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.devops.DevOpsServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.discoveryphase.DiscoveryPhasePageTest"/>
+            <class name="com.andersenlab.autotests.site.services.itsecurity.ITSecurityServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.maintenance.MaintenancePageTest"/>
+            <class name="com.andersenlab.autotests.site.services.maintenance.advanceditsupport.AdvancedITSupportPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.maintenance.infrastructureanddevelopmentsupport.InfrastructureAndDevelopmentSupportServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.maintenance.outsourcedcallcenterservicessupport.OutsourcedCallCenterServicesSupportPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.mobiledevelopment.MobileDevelopmentPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.productdevelopment.ProductDevelopmentServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.projectmanagement.AgileITProjectManagementServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.qa.QaPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.qa.automationtesting.AutomationTestingServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.qa.customtesting.CustomTestingServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.qa.managedtesting.ManagedTestingServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.solutionsrchitecture.SolutionArchitectureServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.teamaugmentation.TeamAugmentationPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.UiUxDesignPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.audit.UiUxDesignAuditPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.brandingdesign.BrandingDesignPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.graphicdesign.GraphicDesignPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.mobiledesign.MobileDesignPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.productdesignservices.ProductDesignServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.uiuxdesign.webdesign.WebDesignPageTest"/>
+            <class name="com.andersenlab.autotests.site.services.webdevelopment.WebDevelopmentServicesPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.backend.BackEndPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.rust.RustPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ruby.RubyPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.frontend.FrontEndPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.vuejs.VueJSPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosPageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.mobile.MobilePageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.reactnative.ReactNativePageTest"/>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinPageTest"/>
+        </classes>
+    </test>
+</suite>

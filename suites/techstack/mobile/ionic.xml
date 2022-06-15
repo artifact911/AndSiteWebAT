@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ionic All Tests">
+    <test name="IonicConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicConsultationTest"/>
+        </classes>
+    </test>
+    <test name="IonicPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="IonicPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicPageTest"/>
+        </classes>
+    </test>
+    <test name="IonicRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="IonicPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ionic.IonicPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

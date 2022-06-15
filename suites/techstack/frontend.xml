@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All FrontEnd">
+    <suite-files>
+        <suite-file path="./frontend/frontend.xml"/>
+        <suite-file path="./frontend/angular.xml"/>
+        <suite-file path="./frontend/javascript.xml"/>
+        <suite-file path="./frontend/reactjs.xml"/>
+        <suite-file path="./frontend/vuejs.xml"/>
+    </suite-files>
+</suite>

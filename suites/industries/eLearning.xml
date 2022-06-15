@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ELearning All Tests">
+    <test name="ELearningContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.elearning.ELearningContactUsTest"/>
+        </classes>
+    </test>
+    <test name="ELearningPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.elearning.ELearningPageTest"/>
+        </classes>
+    </test>
+    <test name="ELearningPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.elearning.ELearningPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="ELearningRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.elearning.ELearningRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

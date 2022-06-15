@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All TechStack">
+    <suite-files>
+        <suite-file path="backend.xml"/>
+        <suite-file path="frontend.xml"/>
+        <suite-file path="mobile.xml"/>
+    </suite-files>
+</suite>

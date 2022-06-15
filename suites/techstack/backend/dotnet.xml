@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DotNet All Tests">
+
+    <test name="DotNetConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetConsultationTest"/>
+        </classes>
+    </test>
+    <test name="DotNetPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="DotNetPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetPageTest"/>
+        </classes>
+    </test>
+    <test name="DotNetRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="DotNetPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.dotnet.DotNetPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

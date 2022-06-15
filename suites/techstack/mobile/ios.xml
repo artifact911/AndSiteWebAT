@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Ios All Tests">
+    <test name="IosConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosConsultationTest"/>
+        </classes>
+    </test>
+    <test name="IosPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="IosPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosPageTest"/>
+        </classes>
+    </test>
+    <test name="IosRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="IosPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.ios.IosPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

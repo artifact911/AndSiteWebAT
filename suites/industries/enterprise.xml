@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Enterprise All Tests">
+    <test name="EnterprisePageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.enterprise.EnterprisePageTest"/>
+        </classes>
+    </test>
+    <test name="EnterpriseConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.enterprise.EnterpriseConsultationTest"/>
+        </classes>
+    </test>
+    <test name="EnterpriseCallToActionPopupTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.enterprise.EnterpriseCallToActionPopupTest"/>
+        </classes>
+    </test>
+    <test name="EnterpriseRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.enterprise.EnterpriseRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

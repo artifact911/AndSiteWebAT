@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Logistics All Tests">
+    <test name="LogisticsContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.logistics.LogisticsContactUsTest"/>
+        </classes>
+    </test>
+    <test name="LogisticsCasesContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.logistics.LogisticsCasesContactUsTest"/>
+        </classes>
+    </test>
+    <test name="LogisticsPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.logistics.LogisticsPageTest"/>
+        </classes>
+    </test>
+</suite>

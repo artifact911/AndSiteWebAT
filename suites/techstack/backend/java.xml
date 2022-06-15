@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Java All Tests">
+    <test name="JavaConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaConsultationTest"/>
+        </classes>
+    </test>
+    <test name="JavaPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="JavaPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaPageTest"/>
+        </classes>
+    </test>
+    <test name="JavaRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="JavaPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.java.JavaPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

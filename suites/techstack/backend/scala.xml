@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Scala All Tests">
+    <test name="ScalaConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaConsultationTest"/>
+        </classes>
+    </test>
+    <test name="ScalaPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="ScalaPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaPageTest"/>
+        </classes>
+    </test>
+    <test name="ScalaRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="ScalaPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.scala.ScalaPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

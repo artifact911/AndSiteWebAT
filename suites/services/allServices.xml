@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Services">
+    <suite-files>
+        <suite-file path="businessAnalysis.xml"/>
+        <suite-file path="customSoftware.xml"/>
+        <suite-file path="maintenance.xml"/>
+        <suite-file path="mobileDevelopment.xml"/>
+        <suite-file path="qa.xml"/>
+        <suite-file path="salesForce.xml"/>
+    </suite-files>
+</suite>

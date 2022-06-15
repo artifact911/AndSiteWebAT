@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Python All Tests">
+    <test name="PythonConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonConsultationTest"/>
+        </classes>
+    </test>
+    <test name="PythonPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="PythonPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonPageTest"/>
+        </classes>
+    </test>
+    <test name="PythonRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="PythonPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.python.PythonPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SalesForce All Tests">
+    <test name="SalesForceConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.salesforce.SalesForceConsultationTest"/>
+        </classes>
+    </test>
+    <test name="SalesForceContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.salesforce.SalesForceContactUsTest"/>
+        </classes>
+    </test>
+    <test name="SalesForceGetQuoteTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.salesforce.SalesForceGetQuoteTest"/>
+        </classes>
+    </test>
+    <test name="SalesForcePageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.salesforce.SalesForcePageTest"/>
+        </classes>
+    </test>
+    <test name="SalesForcePricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.salesforce.SalesForcePricePopUpTest"/>
+        </classes>
+    </test>
+</suite>

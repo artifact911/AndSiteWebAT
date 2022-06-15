@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--TODO Подумать над многопоточностью, после рефакторинга фронтов - изменений не было, мб нужно инвестегийтеть детальней-->
+
+<suite name="Calculator find developers" parallel="tests" thread-count="1">
+
+    <test name="Android">
+        <parameter name="pageMethod" value="toAndroid"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Angular">
+        <parameter name="pageMethod" value="toAngular"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="BackEnd">
+        <parameter name="pageMethod" value="toBackEnd"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="CCPP">
+        <parameter name="pageMethod" value="toCandCPP"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="DotNet">
+        <parameter name="pageMethod" value="toDotNet"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Flutter">
+        <parameter name="pageMethod" value="toFlutter"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="FrontEnd">
+        <parameter name="pageMethod" value="toFrontEnd"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Golang">
+        <parameter name="pageMethod" value="toGolang"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Ionic">
+        <parameter name="pageMethod" value="toIonic"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Java">
+        <parameter name="pageMethod" value="toJava"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Javascript">
+        <parameter name="pageMethod" value="toJavascript"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Mobile">
+        <parameter name="pageMethod" value="toMobile"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="NodeJS">
+        <parameter name="pageMethod" value="toNodeJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="PHP">
+        <parameter name="pageMethod" value="toPHP"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Python">
+        <parameter name="pageMethod" value="toPython"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="ReactJS">
+        <parameter name="pageMethod" value="toReactJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="ReactNative">
+        <parameter name="pageMethod" value="toReactNative"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Ruby">
+        <parameter name="pageMethod" value="toRuby"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Rust">
+        <parameter name="pageMethod" value="toRust"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Scala">
+        <parameter name="pageMethod" value="toScala"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="VueJS">
+        <parameter name="pageMethod" value="toVueJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+    <test name="Xamarin">
+        <parameter name="pageMethod" value="toXamarin"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.CalculatorFindDevelopersTest"/>
+        </classes>
+    </test>
+
+</suite>

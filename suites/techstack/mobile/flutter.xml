@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Flutter All Tests">
+    <test name="flutterConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterConsultationTest"/>
+        </classes>
+    </test>
+    <test name="flutterPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="flutterPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterPageTest"/>
+        </classes>
+    </test>
+    <test name="flutterRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="flutterPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.flutter.FlutterPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

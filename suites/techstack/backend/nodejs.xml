@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NodeJS All Tests">
+    <test name="NodeJSConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSConsultationTest"/>
+        </classes>
+    </test>
+    <test name="NodeJSPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="NodeJSPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSPageTest"/>
+        </classes>
+    </test>
+    <test name="NodeJSRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="NodeJSPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.nodejs.NodeJSPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

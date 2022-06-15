@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Igaming All Tests">
+    <test name="industries/igaming/main/IGamingContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.main.IGamingContactUsTest"/>
+        </classes>
+    </test>
+    <test name="industries/igaming/main/IGamingPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.main.IGamingPlatformDevelopmentPageTest"/>
+        </classes>
+    </test>
+    <test name="industries/igaming/main/IGamingRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.main.IGamingRequestConsultationTest"/>
+        </classes>
+    </test>
+    <test name="industries/igaming/igamingplatform/IGamingPlatformContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.igamingplatform.IGamingPlatformContactUsTest"/>
+        </classes>
+    </test>
+    <test name="industries/igaming/igamingplatform/IGamingPlatformDevelopmentTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.igamingplatform.IGamingPlatformDevelopmentTest"/>
+        </classes>
+    </test>
+    <test name="industries/igaming/igamingplatform/IGamingPlatformRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.igamingplatform.IGamingPlatformRequestConsultationTest"/>
+        </classes>
+    </test>
+    <test name="SportsBettingSoftwareContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.betting.SportsBettingSoftwareContactUsTest"/>
+        </classes>
+    </test>
+    <test name="SportsBettingSoftwareDevelopmentTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.betting.SportsBettingSoftwareDevelopmentTest"/>
+        </classes>
+    </test>
+    <test name="SportsBettingSoftwareRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.igaming.betting.SportsBettingSoftwareRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

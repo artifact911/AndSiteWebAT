@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All my tests">
+    <suite-files>
+        <suite-file path="../../../suites/services/allServices.xml"/>
+        <suite-file path="../../../suites/techstack/allTechStack.xml"/>
+        <suite-file path="../../../suites/industries/allIndustries.xml"/>
+    </suite-files>
+</suite>

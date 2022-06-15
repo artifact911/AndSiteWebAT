@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Full Run">
+    <suite-files>
+        <suite-file path="industries/allIndustries.xml"/>
+        <suite-file path="services/allServices.xml"/>
+        <suite-file path="techstack/allTechStack.xml"/>
+    </suite-files>
+</suite>

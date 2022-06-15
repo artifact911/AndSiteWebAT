@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Industries">
+    <suite-files>
+        <suite-file path="eLearning.xml"/>
+        <suite-file path="enterprise.xml"/>
+        <suite-file path="healthcare.xml"/>
+        <suite-file path="igaming.xml"/>
+        <suite-file path="logistics.xml"/>
+        <suite-file path="realEstate.xml"/>
+        <suite-file path="retail.xml"/>
+        <suite-file path="telecom.xml"/>
+        <suite-file path="videoEntertainment.xml"/>
+    </suite-files>
+</suite>

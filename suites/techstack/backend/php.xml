@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="PHP All Tests">
+    <test name="PHPConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPConsultationTest"/>
+        </classes>
+    </test>
+    <test name="PHPPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="PHPPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPPageTest"/>
+        </classes>
+    </test>
+    <test name="PHPRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="PHPPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.php.PHPPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Checking contact us footer form on all pages">
+
+    <test name="AboutUs">
+        <parameter name="pageMethod" value="openAboutUs"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Blog">
+        <parameter name="pageMethod" value="openBlog"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Testimonials">
+        <parameter name="pageMethod" value="openTestimonials"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Android">
+        <parameter name="pageMethod" value="toAndroid"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Angular">
+        <parameter name="pageMethod" value="toAngular"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="BackEnd">
+        <parameter name="pageMethod" value="toBackEnd"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CCPP">
+        <parameter name="pageMethod" value="toCandCPP"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DotNet">
+        <parameter name="pageMethod" value="toDotNet"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Flutter">
+        <parameter name="pageMethod" value="toFlutter"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FrontEnd">
+        <parameter name="pageMethod" value="toFrontEnd"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Golang">
+        <parameter name="pageMethod" value="toGolang"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Ionic">
+        <parameter name="pageMethod" value="toIonic"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="IOS">
+        <parameter name="pageMethod" value="toIOS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Java">
+        <parameter name="pageMethod" value="toJava"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Javascript">
+        <parameter name="pageMethod" value="toJavascript"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Mobile">
+        <parameter name="pageMethod" value="toMobile"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="NodeJS">
+        <parameter name="pageMethod" value="toNodeJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="PHP">
+        <parameter name="pageMethod" value="toPHP"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Python">
+        <parameter name="pageMethod" value="toPython"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ReactJS">
+        <parameter name="pageMethod" value="toReactJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ReactNative">
+        <parameter name="pageMethod" value="toReactNative"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Ruby">
+        <parameter name="pageMethod" value="toRuby"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Rust">
+        <parameter name="pageMethod" value="toRust"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Scala">
+        <parameter name="pageMethod" value="toScala"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="VueJS">
+        <parameter name="pageMethod" value="toVueJS"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Xamarin">
+        <parameter name="pageMethod" value="toXamarin"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="OurProjects">
+        <parameter name="pageMethod" value="openOurProjects"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="SolutionArchitectureServices">
+        <parameter name="pageMethod" value="toSolutionArchitectureServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Ba">
+        <parameter name="pageMethod" value="toBa"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DiscoveryPhase">
+        <parameter name="pageMethod" value="toDiscoveryPhase"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CloudDevelopmentServices">
+        <parameter name="pageMethod" value="toCloudDevelopmentServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AmazonWebServices">
+        <parameter name="pageMethod" value="toAmazonWebServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomSoftware">
+        <parameter name="pageMethod" value="toCustomSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DataScience">
+        <parameter name="pageMethod" value="toDataScience"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TeamAugmentation">
+        <parameter name="pageMethod" value="toTeamAugmentation"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="UIUXDesignStudio">
+        <parameter name="pageMethod" value="toUIUXDesignStudio"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="UiUxDesignAudit">
+        <parameter name="pageMethod" value="toUiUxDesignAudit"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="BrandingDesign">
+        <parameter name="pageMethod" value="toBrandingDesign"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="GraphicDesign">
+        <parameter name="pageMethod" value="toGraphicDesign"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MobileDesign">
+        <parameter name="pageMethod" value="toMobileDesign"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductDesignServices">
+        <parameter name="pageMethod" value="toProductDesignServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="WebDesign">
+        <parameter name="pageMethod" value="toWebDesign"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DevOpsServices">
+        <parameter name="pageMethod" value="toDevOpsServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DiscoveryPhaseForSoftwareProject">
+        <parameter name="pageMethod" value="toDiscoveryPhaseForSoftwareProject"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Maintenance">
+        <parameter name="pageMethod" value="toMaintenance"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AdvancedITSupportServices">
+        <parameter name="pageMethod" value="toAdvancedITSupportServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AdvancedCustomerSupport">
+        <parameter name="pageMethod" value="toAdvancedCustomerSupport"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ITExpenseOptimization">
+        <parameter name="pageMethod" value="toITExpenseOptimization"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AdvancedTechnicalSupportForUsers">
+        <parameter name="pageMethod" value="toAdvancedTechnicalSupportForUsers"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ITServiceReports">
+        <parameter name="pageMethod" value="toITServiceReports"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="OutsourcedCallCenterServices">
+        <parameter name="pageMethod" value="toOutsourcedCallCenterServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="InfrastructureAndDevelopmentSupportServices">
+        <parameter name="pageMethod" value="toInfrastructureAndDevelopmentSupportServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MobileDevelopment">
+        <parameter name="pageMethod" value="toMobileDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="OutsourcedITServices">
+        <parameter name="pageMethod" value="toOutsourcedITServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductDevelopmentServices">
+        <parameter name="pageMethod" value="toProductDevelopmentServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AgileITProjectManagement">
+        <parameter name="pageMethod" value="toAgileITProjectManagement"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Qa">
+        <parameter name="pageMethod" value="toQa"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AutomationTestingServices">
+        <parameter name="pageMethod" value="toAutomationTestingServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomTestingServices">
+        <parameter name="pageMethod" value="toCustomTestingServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="QAAuditServices">
+        <parameter name="pageMethod" value="toQAAuditServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ManagedTestingServices">
+        <parameter name="pageMethod" value="toManagedTestingServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ITSecurityServices">
+        <parameter name="pageMethod" value="toITSecurityServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="WebDevelopmentServices">
+        <parameter name="pageMethod" value="toWebDevelopmentServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Automotive">
+        <parameter name="pageMethod" value="toAutomotive"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ECommerce">
+        <parameter name="pageMethod" value="toECommerce"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ELearning">
+        <parameter name="pageMethod" value="toELearning"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Enterprise">
+        <parameter name="pageMethod" value="toEnterprise"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialServices">
+        <parameter name="pageMethod" value="toFinancialServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialServicesBanking">
+        <parameter name="pageMethod" value="toFinancialServicesBanking"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="BankingBigDataSolutions">
+        <parameter name="pageMethod" value="toBankingBigDataSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="BankingDigitalTransformation">
+        <parameter name="pageMethod" value="toBankingDigitalTransformation"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="BankingIntegrationSoftware">
+        <parameter name="pageMethod" value="toBankingIntegrationSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CoreBankingSoftwareSolutions">
+        <parameter name="pageMethod" value="toCoreBankingSoftwareSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomLoanSoftwareSolutions">
+        <parameter name="pageMethod" value="toCustomLoanSoftwareSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DigitalBankingSoftwareDevelopment">
+        <parameter name="pageMethod" value="toDigitalBankingSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomBlockchainSoftwareDevelopment">
+        <parameter name="pageMethod" value="toCustomBlockchainSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialServicesFintech">
+        <parameter name="pageMethod" value="toFinancialServicesFintech"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AlternativeLendingSoftware">
+        <parameter name="pageMethod" value="toAlternativeLendingSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CloudFintechSolutions">
+        <parameter name="pageMethod" value="toCloudFintechSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CryptocurrencyDevelopmentServices">
+        <parameter name="pageMethod" value="toCryptocurrencyDevelopmentServices"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomDigitalWalletDevelopment">
+        <parameter name="pageMethod" value="toCustomDigitalWalletDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FintechPaymentSolutions">
+        <parameter name="pageMethod" value="toFintechPaymentSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="PersonalFinanceSolutions">
+        <parameter name="pageMethod" value="toPersonalFinanceSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialServicesInvestment">
+        <parameter name="pageMethod" value="toFinancialServicesInvestment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="AssetManagementSoftware">
+        <parameter name="pageMethod" value="toAssetManagementSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomTradingSoftware">
+        <parameter name="pageMethod" value="toCustomTradingSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialAnalysisSoftware">
+        <parameter name="pageMethod" value="toFinancialAnalysisSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="InvestmentComplianceDevelopment">
+        <parameter name="pageMethod" value="toInvestmentComplianceDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MobileInvestmentSoftware">
+        <parameter name="pageMethod" value="toMobileInvestmentSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TradingApiDevelopment">
+        <parameter name="pageMethod" value="toTradingApiDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="FinancialServicesInsurance">
+        <parameter name="pageMethod" value="toFinancialServicesInsurance"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="IGaming">
+        <parameter name="pageMethod" value="toIGaming"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="PlatformDevelopment">
+        <parameter name="pageMethod" value="toPlatformDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="IGamingPlatformSecurity">
+        <parameter name="pageMethod" value="toIGamingPlatformSecurity"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductionOperationsSupport">
+        <parameter name="pageMethod" value="toProductionOperationsSupport"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Integrations">
+        <parameter name="pageMethod" value="toIntegrations"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MultiDevicesBrowsersSupport">
+        <parameter name="pageMethod" value="toMultiDevicesBrowsersSupport"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="UIUXGameArtDesign">
+        <parameter name="pageMethod" value="toUIUXGameArtDesign"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Betting">
+        <parameter name="pageMethod" value="toBetting"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="IGamingSoftDev">
+        <parameter name="pageMethod" value="toIGamingSoftDev"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Healthcare">
+        <parameter name="pageMethod" value="toHealthcare"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HealthcareAISoftwareSolutions">
+        <parameter name="pageMethod" value="toHealthcareAISoftwareSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomAssistiveTechnologySoftwareSolutions">
+        <parameter name="pageMethod" value="toCustomAssistiveTechnologySoftwareSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DataAnalyticsAndIOMT">
+        <parameter name="pageMethod" value="toDataAnalyticsAndIOMT"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="EmrSolutions">
+        <parameter name="pageMethod" value="toEmrSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="CustomEHRDevelopment">
+        <parameter name="pageMethod" value="toCustomEHRDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="EHRCustomization">
+        <parameter name="pageMethod" value="toEHRCustomization"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="EHRIntegration">
+        <parameter name="pageMethod" value="toEHRIntegration"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HealthInformationExchangeSoftware">
+        <parameter name="pageMethod" value="toHealthInformationExchangeSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HealthInformationManagementSoftware">
+        <parameter name="pageMethod" value="toHealthInformationManagementSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HealthInformationSecurityAndCompliance">
+        <parameter name="pageMethod" value="toHealthInformationSecurityAndCompliance"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="DanielKraftOnHealthTechsFuture">
+        <parameter name="pageMethod" value="toDanielKraftOnHealthTechsFuture"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HealthcareSoftwareDevelopers">
+        <parameter name="pageMethod" value="toHealthcareSoftwareDevelopers"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="HospitalManagementSoftware">
+        <parameter name="pageMethod" value="toHospitalManagementSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MedicalPracticeManagementSoftware">
+        <parameter name="pageMethod" value="toMedicalPracticeManagementSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MentalHealthDigitalSolutions">
+        <parameter name="pageMethod" value="toMentalHealthDigitalSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MobileHealthcareApplications">
+        <parameter name="pageMethod" value="toMobileHealthcareApplications"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="PacsDicomSoftware">
+        <parameter name="pageMethod" value="toPacsDicomSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="RemotePatientMonitoringSoftware">
+        <parameter name="pageMethod" value="toRemotePatientMonitoringSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="RevenueCycleManagementSoftware">
+        <parameter name="pageMethod" value="toRevenueCycleManagementSoftware"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TelehealthSolutions">
+        <parameter name="pageMethod" value="toTelehealthSolutions"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Logistics">
+        <parameter name="pageMethod" value="toLogistics"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="InventoryManagementSoftwareDevelopment">
+        <parameter name="pageMethod" value="toInventoryManagementSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="OrderManagementSoftwareDevelopment">
+        <parameter name="pageMethod" value="toOrderManagementSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TransportationManagementSoftwareDevelopment">
+        <parameter name="pageMethod" value="toTransportationManagementSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="WarehouseManagementSoftwareDevelopment">
+        <parameter name="pageMethod" value="toWarehouseManagementSoftwareDevelopment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="MediaAndEntertainment">
+        <parameter name="pageMethod" value="toMediaAndEntertainment"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="RealEstate">
+        <parameter name="pageMethod" value="toRealEstate"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Retail">
+        <parameter name="pageMethod" value="toRetail"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="Telecom">
+        <parameter name="pageMethod" value="toTelecom"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+    <test name="TravelAndHospitality">
+        <parameter name="pageMethod" value="toTravelAndHospitality"/>
+        <classes>
+            <class name="com.andersenlab.autotests.site.form.ContactUsFooterFormTest"/>
+        </classes>
+    </test>
+
+</suite>

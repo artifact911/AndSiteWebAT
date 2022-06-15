@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Maintenance All Tests">
+    <test name="MaintenanceConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.maintenance.MaintenanceConsultationTest"/>
+        </classes>
+    </test>
+    <test name="MaintenancePageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.maintenance.MaintenancePageTest"/>
+        </classes>
+    </test>
+    <test name="MaintenancePricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.maintenance.MaintenancePricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="MaintenanceRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.maintenance.MaintenanceRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

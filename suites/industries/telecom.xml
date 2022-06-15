@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Telecom All Tests">
+    <test name="TelecomPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.telecom.TelecomPageTest"/>
+        </classes>
+    </test>
+    <test name="TelecomConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.telecom.TelecomConsultationTest"/>
+        </classes>
+    </test>
+    <test name="TelecomCallToActionPopupTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.telecom.TelecomCallToActionPopupTest"/>
+        </classes>
+    </test>
+    <test name="TelecomRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.telecom.TelecomRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

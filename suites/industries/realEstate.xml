@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Real Estate All Tests">
+    <test name="Real Estate page test">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.realestate.RealEstatePageTest"/>
+        </classes>
+    </test>
+    <test name="Real Estate CallToAction block popup test">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.realestate.RealEstateCallToActionPopupTest"/>
+        </classes>
+    </test>
+    <test name="Real Estate Consultation test">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.realestate.RealEstateConsultationTest"/>
+        </classes>
+    </test>
+    <test name="Real Estate Request consultation popup test">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.realestate.RealEstateRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

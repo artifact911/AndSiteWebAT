@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ReactJS All Tests">
+    <test name="ReactJSConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSConsultationTest"/>
+        </classes>
+    </test>
+    <test name="ReactJSPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="ReactJSPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSPageTest"/>
+        </classes>
+    </test>
+    <test name="ReactJSRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="ReactJSPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.reactjs.ReactJSPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

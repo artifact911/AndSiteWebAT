@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Angular All Tests">
+    <test name="AngularConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularConsultationTest"/>
+        </classes>
+    </test>
+    <test name="AngularPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="AngularPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularPageTest"/>
+        </classes>
+    </test>
+    <test name="AngularRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="AngularPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.angular.AngularPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

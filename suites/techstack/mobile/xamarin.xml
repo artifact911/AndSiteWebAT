@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Xamarin All Tests">
+    <test name="XamarinConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinConsultationTest"/>
+        </classes>
+    </test>
+    <test name="XamarinPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="XamarinPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinPageTest"/>
+        </classes>
+    </test>
+    <test name="XamarinRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="XamarinPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.xamarin.XamarinPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

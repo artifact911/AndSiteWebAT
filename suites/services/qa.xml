@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="QA All Tests">
+    <test name="QaConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.qa.QaConsultationTest"/>
+        </classes>
+    </test>
+    <test name="QaContactUsTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.qa.QaContactUsTest"/>
+        </classes>
+    </test>
+    <test name="QaPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.qa.QaPageTest"/>
+        </classes>
+    </test>
+    <test name="QaPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.qa.QaPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="QaRequestConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.services.qa.QaRequestConsultationTest"/>
+        </classes>
+    </test>
+</suite>

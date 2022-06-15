@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Javascript All Tests">
+    <test name="JavascriptConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptConsultationTest"/>
+        </classes>
+    </test>
+    <test name="JavascriptPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="JavascriptPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptPageTest"/>
+        </classes>
+    </test>
+    <test name="JavascriptRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="JavascriptPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.frontend.javascript.JavascriptPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

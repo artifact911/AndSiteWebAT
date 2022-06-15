@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Golang All Tests">
+    <test name="GolangConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangConsultationTest"/>
+        </classes>
+    </test>
+    <test name="GolangPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="GolangPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangPageTest"/>
+        </classes>
+    </test>
+    <test name="GolangRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="GolangPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.golang.GolangPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

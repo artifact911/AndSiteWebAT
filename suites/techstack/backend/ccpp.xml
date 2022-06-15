@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CCPP All Tests">
+    <test name="CCPPConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPConsultationTest"/>
+        </classes>
+    </test>
+    <test name="CCPPPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="CCPPPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPPageTest"/>
+        </classes>
+    </test>
+    <test name="CCPPRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="CCPPPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.backend.ccpp.CCPPPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>

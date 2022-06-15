@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Healthcare All Tests">
+    <test name="HealthcarePageTest.java">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcarePageTest"/>
+        </classes>
+    </test>
+    <test name="EMRSolutionsPageTest.java">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.EMRSolutionsPageTest"/>
+        </classes>
+    </test>
+    <test name="HealthcareBIandDAConsultingTest.java">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.HealthcareBIandDAConsultingTest"/>
+        </classes>
+    </test>
+    <test name="CustomHealthcareSoftDevTest.java">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.CustomHealthcareSoftDevTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.CustomHealthcareSoftDevMobilePageTest"/>
+        </classes>
+    </test>
+    <test name="TeleheathSolutionsTest.java">
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.TeleheathSolutionsTest"/>
+            <class name="com.andersenlab.autotests.site.industries.healthcare.TeleheathSolutionsMobilePageTest"/>
+        </classes>
+    </test>
+</suite>

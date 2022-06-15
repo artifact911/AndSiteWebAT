@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Calculator others" parallel="tests" thread-count="1">
+    <test name="Calculator others">
+    <groups>
+        <run>
+            <include name="Calculators group"/>
+        </run>
+    </groups>
+        <classes>
+            <class name="com.andersenlab.autotests.site.industries.ecommerce.ECommercePageTest"/>
+            <class name="com.andersenlab.autotests.site.services.teamaugmentation.TeamAugmentationPageTest"/>
+            <!--<class name="com.andersenlab.autotests.site.services.qa.customtesting.CustomTestingServicesPageTest"/>-->
+        </classes>
+    </test>
+</suite>

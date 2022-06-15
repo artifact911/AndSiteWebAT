@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Android All Tests">
+    <test name="AndroidConsultationTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidConsultationTest"/>
+        </classes>
+    </test>
+    <test name="AndroidPricePopUpTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidPricePopUpTest"/>
+        </classes>
+    </test>
+    <test name="AndroidPageTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidPageTest"/>
+        </classes>
+    </test>
+    <test name="AndroidRequestSpecialistTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidRequestSpecialistTest"/>
+        </classes>
+    </test>
+    <test name="AndroidPriceInCalcTest">
+        <classes>
+            <class name="com.andersenlab.autotests.site.techstack.mobile.android.AndroidPriceInCalcTest"/>
+        </classes>
+    </test>
+</suite>
